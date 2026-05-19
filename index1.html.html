@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Світ Тварин</title>
+ <link rel="stylesheet" href="css/tig.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4fff4;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(90deg, #4CAF50, #2E8B57);
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 42px;
+    }
+
+    header p {
+      font-size: 18px;
+    }
+
+    .animals {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+    }
+
+    .card h2 {
+      text-align: center;
+      color: #2E8B57;
+    }
+
+    .card p {
+      padding: 0 15px 20px;
+      text-align: center;
+    }
+
+    footer {
+      background: #2E8B57;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>🐾 Світ Тварин</h1>
+  <p>Цікаві факти про дивовижних тварин</p>
+</header>
+<div class="animals">
+
+  <!-- Лев -->
+  <div class="card">
+    <a href="https://uk.wikipedia.org/wiki/Лев" target="_blank">
+      <img src="https://images.unsplash.com/photo-1546182990-dffeafbe841d" alt="Лев">
+    </a>
+
+    <div class="card-content">
+      <h2>Лев</h2>
+      <p>Лев — один із найбільших хижаків у світі та символ сили.</p>
+
+      <a class="wiki-btn"
+         href="https://uk.wikipedia.org/wiki/Лев"
+         target="_blank">
+         Дізнатись більше
+      </a>
+    </div>
+  </div>
+
+  <!-- Тигр -->
+  <div class="card">
+    <a href="https://uk.wikipedia.org/wiki/Тигр" target="_blank">
+      <img src="https://images.unsplash.com/photo-1549366021-9f761d450615" alt="Тигр">
+    </a>
+
+    <div class="card-content">
+      <h2>Тигр</h2>
+      <p>Тигр — великий смугастий хижак, який мешкає в Азії.</p>
+
+      <a class="wiki-btn"
+         href="https://uk.wikipedia.org/wiki/Тигр"
+         target="_blank">
+         Дізнатись більше
+      </a>
+    </div>
+  </div>
+
+  <!-- Панда -->
+  <div class="card">
+    <a href="https://uk.wikipedia.org/wiki/Велика_панда" target="_blank">
+      <img src="https://images.unsplash.com/photo-1564349683136-77e08dba1ef7" alt="Панда">
+    </a>
+
+    <div class="card-content">
+      <h2>Панда</h2>
+      <p>Панда — мила чорно-біла тварина, яка любить бамбук.</p>
+
+      <a class="wiki-btn"
+         href="https://uk.wikipedia.org/wiki/Велика_панда"
+         target="_blank">
+         Дізнатись більше
+      </a>
+    </div>
+  </div>
+
+  <!-- Вовк -->
+  <div class="card">
+    <a href="https://uk.wikipedia.org/wiki/Вовк" target="_blank">
+      <img src="https://images.unsplash.com/photo-1517849845537-4d257902454a" alt="Вовк">
+    </a>
+
+    <div class="card-content">
+      <h2>Вовк</h2>
+      <p>Вовки живуть зграями та відомі своєю витривалістю.</p>
+
+      <a class="wiki-btn"
+         href="https://uk.wikipedia.org/wiki/Вовк"
+         target="_blank">
+         Дізнатись більше
+      </a>
+    </div>
+  </div>
+
+</div>
